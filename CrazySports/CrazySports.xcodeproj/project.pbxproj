@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD824B619322E0900FC8C72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD824B519322E0900FC8C72 /* Foundation.framework */; };
+		2FD824B819322E0900FC8C72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD824B719322E0900FC8C72 /* CoreGraphics.framework */; };
+		2FD824BA19322E0900FC8C72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD824B919322E0900FC8C72 /* UIKit.framework */; };
+		2FD824BC19322E0900FC8C72 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD824BB19322E0900FC8C72 /* CoreData.framework */; };
+		2FD824C219322E0900FC8C72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FD824C019322E0900FC8C72 /* InfoPlist.strings */; };
+		2FD824C419322E0900FC8C72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD824C319322E0900FC8C72 /* main.m */; };
+		2FD824C819322E0900FC8C72 /* CSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD824C719322E0900FC8C72 /* CSAppDelegate.m */; };
+		2FD824CB19322E0900FC8C72 /* CrazySports.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FD824C919322E0900FC8C72 /* CrazySports.xcdatamodeld */; };
+		2FD824CD19322E0900FC8C72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD824CC19322E0900FC8C72 /* Images.xcassets */; };
+		2FD824D419322E0900FC8C72 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD824D319322E0900FC8C72 /* XCTest.framework */; };
+		2FD824D519322E0900FC8C72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD824B519322E0900FC8C72 /* Foundation.framework */; };
+		2FD824D619322E0900FC8C72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD824B919322E0900FC8C72 /* UIKit.framework */; };
+		2FD824D719322E0900FC8C72 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD824BB19322E0900FC8C72 /* CoreData.framework */; };
+		2FD824DF19322E0900FC8C72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FD824DD19322E0900FC8C72 /* InfoPlist.strings */; };
+		2FD824E119322E0900FC8C72 /* CrazySportsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD824E019322E0900FC8C72 /* CrazySportsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FD824D819322E0900FC8C72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD824AA19322E0900FC8C72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD824B119322E0900FC8C72;
+			remoteInfo = CrazySports;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FD824B219322E0900FC8C72 /* CrazySports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazySports.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD824B519322E0900FC8C72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FD824B719322E0900FC8C72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FD824B919322E0900FC8C72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FD824BB19322E0900FC8C72 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2FD824BF19322E0900FC8C72 /* CrazySports-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazySports-Info.plist"; sourceTree = "<group>"; };
+		2FD824C119322E0900FC8C72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FD824C319322E0900FC8C72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FD824C519322E0900FC8C72 /* CrazySports-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrazySports-Prefix.pch"; sourceTree = "<group>"; };
+		2FD824C619322E0900FC8C72 /* CSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAppDelegate.h; sourceTree = "<group>"; };
+		2FD824C719322E0900FC8C72 /* CSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegate.m; sourceTree = "<group>"; };
+		2FD824CA19322E0900FC8C72 /* CrazySports.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrazySports.xcdatamodel; sourceTree = "<group>"; };
+		2FD824CC19322E0900FC8C72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FD824D219322E0900FC8C72 /* CrazySportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazySportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD824D319322E0900FC8C72 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2FD824DC19322E0900FC8C72 /* CrazySportsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazySportsTests-Info.plist"; sourceTree = "<group>"; };
+		2FD824DE19322E0900FC8C72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FD824E019322E0900FC8C72 /* CrazySportsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazySportsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD824AF19322E0900FC8C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD824B819322E0900FC8C72 /* CoreGraphics.framework in Frameworks */,
+				2FD824BC19322E0900FC8C72 /* CoreData.framework in Frameworks */,
+				2FD824BA19322E0900FC8C72 /* UIKit.framework in Frameworks */,
+				2FD824B619322E0900FC8C72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD824CF19322E0900FC8C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD824D419322E0900FC8C72 /* XCTest.framework in Frameworks */,
+				2FD824D719322E0900FC8C72 /* CoreData.framework in Frameworks */,
+				2FD824D619322E0900FC8C72 /* UIKit.framework in Frameworks */,
+				2FD824D519322E0900FC8C72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD824A919322E0900FC8C72 = {
+			isa = PBXGroup;
+			children = (
+				2FD824BD19322E0900FC8C72 /* CrazySports */,
+				2FD824DA19322E0900FC8C72 /* CrazySportsTests */,
+				2FD824B419322E0900FC8C72 /* Frameworks */,
+				2FD824B319322E0900FC8C72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD824B319322E0900FC8C72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD824B219322E0900FC8C72 /* CrazySports.app */,
+				2FD824D219322E0900FC8C72 /* CrazySportsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD824B419322E0900FC8C72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FD824B519322E0900FC8C72 /* Foundation.framework */,
+				2FD824B719322E0900FC8C72 /* CoreGraphics.framework */,
+				2FD824B919322E0900FC8C72 /* UIKit.framework */,
+				2FD824BB19322E0900FC8C72 /* CoreData.framework */,
+				2FD824D319322E0900FC8C72 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FD824BD19322E0900FC8C72 /* CrazySports */ = {
+			isa = PBXGroup;
+			children = (
+				2FD824C619322E0900FC8C72 /* CSAppDelegate.h */,
+				2FD824C719322E0900FC8C72 /* CSAppDelegate.m */,
+				2FD824CC19322E0900FC8C72 /* Images.xcassets */,
+				2FD824C919322E0900FC8C72 /* CrazySports.xcdatamodeld */,
+				2FD824BE19322E0900FC8C72 /* Supporting Files */,
+			);
+			path = CrazySports;
+			sourceTree = "<group>";
+		};
+		2FD824BE19322E0900FC8C72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD824BF19322E0900FC8C72 /* CrazySports-Info.plist */,
+				2FD824C019322E0900FC8C72 /* InfoPlist.strings */,
+				2FD824C319322E0900FC8C72 /* main.m */,
+				2FD824C519322E0900FC8C72 /* CrazySports-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FD824DA19322E0900FC8C72 /* CrazySportsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FD824E019322E0900FC8C72 /* CrazySportsTests.m */,
+				2FD824DB19322E0900FC8C72 /* Supporting Files */,
+			);
+			path = CrazySportsTests;
+			sourceTree = "<group>";
+		};
+		2FD824DB19322E0900FC8C72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD824DC19322E0900FC8C72 /* CrazySportsTests-Info.plist */,
+				2FD824DD19322E0900FC8C72 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD824B119322E0900FC8C72 /* CrazySports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD824E419322E0900FC8C72 /* Build configuration list for PBXNativeTarget "CrazySports" */;
+			buildPhases = (
+				2FD824AE19322E0900FC8C72 /* Sources */,
+				2FD824AF19322E0900FC8C72 /* Frameworks */,
+				2FD824B019322E0900FC8C72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazySports;
+			productName = CrazySports;
+			productReference = 2FD824B219322E0900FC8C72 /* CrazySports.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FD824D119322E0900FC8C72 /* CrazySportsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD824E719322E0900FC8C72 /* Build configuration list for PBXNativeTarget "CrazySportsTests" */;
+			buildPhases = (
+				2FD824CE19322E0900FC8C72 /* Sources */,
+				2FD824CF19322E0900FC8C72 /* Frameworks */,
+				2FD824D019322E0900FC8C72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD824D919322E0900FC8C72 /* PBXTargetDependency */,
+			);
+			name = CrazySportsTests;
+			productName = CrazySportsTests;
+			productReference = 2FD824D219322E0900FC8C72 /* CrazySportsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD824AA19322E0900FC8C72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yang.zy;
+				TargetAttributes = {
+					2FD824D119322E0900FC8C72 = {
+						TestTargetID = 2FD824B119322E0900FC8C72;
+					};
+				};
+			};
+			buildConfigurationList = 2FD824AD19322E0900FC8C72 /* Build configuration list for PBXProject "CrazySports" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FD824A919322E0900FC8C72;
+			productRefGroup = 2FD824B319322E0900FC8C72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD824B119322E0900FC8C72 /* CrazySports */,
+				2FD824D119322E0900FC8C72 /* CrazySportsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD824B019322E0900FC8C72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD824C219322E0900FC8C72 /* InfoPlist.strings in Resources */,
+				2FD824CD19322E0900FC8C72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD824D019322E0900FC8C72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD824DF19322E0900FC8C72 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD824AE19322E0900FC8C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD824C819322E0900FC8C72 /* CSAppDelegate.m in Sources */,
+				2FD824CB19322E0900FC8C72 /* CrazySports.xcdatamodeld in Sources */,
+				2FD824C419322E0900FC8C72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD824CE19322E0900FC8C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD824E119322E0900FC8C72 /* CrazySportsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FD824D919322E0900FC8C72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD824B119322E0900FC8C72 /* CrazySports */;
+			targetProxy = 2FD824D819322E0900FC8C72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FD824C019322E0900FC8C72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD824C119322E0900FC8C72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FD824DD19322E0900FC8C72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD824DE19322E0900FC8C72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FD824E219322E0900FC8C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FD824E319322E0900FC8C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD824E519322E0900FC8C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazySports/CrazySports-Prefix.pch";
+				INFOPLIST_FILE = "CrazySports/CrazySports-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FD824E619322E0900FC8C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazySports/CrazySports-Prefix.pch";
+				INFOPLIST_FILE = "CrazySports/CrazySports-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2FD824E819322E0900FC8C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrazySports.app/CrazySports";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazySports/CrazySports-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrazySportsTests/CrazySportsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2FD824E919322E0900FC8C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrazySports.app/CrazySports";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazySports/CrazySports-Prefix.pch";
+				INFOPLIST_FILE = "CrazySportsTests/CrazySportsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD824AD19322E0900FC8C72 /* Build configuration list for PBXProject "CrazySports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD824E219322E0900FC8C72 /* Debug */,
+				2FD824E319322E0900FC8C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD824E419322E0900FC8C72 /* Build configuration list for PBXNativeTarget "CrazySports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD824E519322E0900FC8C72 /* Debug */,
+				2FD824E619322E0900FC8C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FD824E719322E0900FC8C72 /* Build configuration list for PBXNativeTarget "CrazySportsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD824E819322E0900FC8C72 /* Debug */,
+				2FD824E919322E0900FC8C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FD824C919322E0900FC8C72 /* CrazySports.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FD824CA19322E0900FC8C72 /* CrazySports.xcdatamodel */,
+			);
+			currentVersion = 2FD824CA19322E0900FC8C72 /* CrazySports.xcdatamodel */;
+			path = CrazySports.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FD824AA19322E0900FC8C72 /* Project object */;
+}
